@@ -1,4 +1,12 @@
-
+.period{
+  font-size:small;
+  font-weight:bold;
+  }
+  hr{
+  margin-top: -70px;
+  width:90%;
+  
+  }
 h5 {
   text-align: center;
   padding-top: 20px;
@@ -8,51 +16,43 @@ h5 {
   font-size:xx-large;
   margin-top:-10px;
   }
-  .period{
-  font-size:x-small;
-  font-weight:bold;
-  }
-  hr{
-  margin-top: -70px;
-  width:90%;
   
-  }
   .btn{
-  font-size: 100%;
-  border:#007bff;
-  border-radius: 5rem;
+  font-size: 90%;
+  border:#177ce9;
+  border-radius: 1rem;
   letter-spacing: .1rem;
   font-weight: bold;
   padding: 1rem;
   opacity: 0.7;
   transition: all 0.2s;
-  width:270px;
-  color:antiquewhite;
-  background-color: #007bff;
-  margin-bottom:10px;
-  margin-left: 10px;
+  width:250px;
+  color:rgb(255, 255, 255);
+  background-color: #074990;
+  margin-bottom:5px;
+  margin-left: 5px;
   }
   .card-body:hover{
-  margin-top: -.25rem;
-  margin-bottom: .25rem;
+  margin-top: -.24rem;
+  margin-bottom: .20rem;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   
   }
   .card-body:hover .btn{
   opacity: 1;
-  background-color: #0464c4;
+  background-color: #2870b8;
   }
   .card-body{
   background-color: rgb(255, 255, 255);
   border-radius:1rem;
-  width: 300px;
-  height:570px;
+  width: 370px;
+  height:480px;
   }
   .fa-ul{
   list-style-type:'✔';
   }
   .text-muted{
-  color:#808080;
+  color:#9b9a9a;
   list-style-type: '✖';
   }
   .row{
@@ -64,5 +64,5 @@ h5 {
   margin-top:60px;
   }
   body{
-  background: linear-gradient(to right, rgb(16, 76, 136), #265270);
+  background: linear-gradient(to right, rgb(26, 64, 154), rgb(71, 120, 200));
   }
